@@ -1,6 +1,6 @@
 # Тестовое задание
 
-Инструкции: https://docs.google.com/document/d/1Zk9DwDkMWN4oFxTBSC3YsDvXMSYQZzDic9EhyIokN7Q/edit
+Инструкции <a href="https://docs.google.com/document/d/1Zk9DwDkMWN4oFxTBSC3YsDvXMSYQZzDic9EhyIokN7Q/edit" target="_blank">здесь</a>
 
 ### Таблицы:
 
