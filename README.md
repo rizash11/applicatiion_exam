@@ -5,7 +5,7 @@ https://docs.google.com/document/d/1Zk9DwDkMWN4oFxTBSC3YsDvXMSYQZzDic9EhyIokN7Q/
   <img
     title="tables"
     alt="tables of store database"
-    src={Screenshot from 2024-03-07 15-52-43](https://github.com/rizash11/applicatiion_exam/assets/101503746/50fcff14-a62f-4179-a3ce-119b627f5278}
+    src="Screenshot from 2024-03-07 15-52-43](https://github.com/rizash11/applicatiion_exam/assets/101503746/50fcff14-a62f-4179-a3ce-119b627f5278}"
   />
 ![Screenshot from 2024-03-07 15-52-43](https://github.com/rizash11/applicatiion_exam/assets/101503746/50fcff14-a62f-4179-a3ce-119b627f5278)
 
