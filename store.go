@@ -109,7 +109,7 @@ func printOrders(rows *sql.Rows, orders string) error {
 		}
 
 		shelfBlock += *name + " (id=" + strconv.Itoa(*product_id) + ")\n"
-		shelfBlock += "заказ " + strconv.Itoa(*order_id) + ", " + strconv.Itoa(*quantity) + "\n"
+		shelfBlock += "заказ " + strconv.Itoa(*order_id) + ", " + strconv.Itoa(*quantity) + " шт\n"
 		if *shelf2_id != "" {
 			shelfBlock += "доп стеллаж: " + *shelf2_id
 
