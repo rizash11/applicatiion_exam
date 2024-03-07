@@ -105,11 +105,21 @@ func printOrders(rows *sql.Rows, orders string) error {
 		if prev_shelf != *shelf1_id {
 			fmt.Printf("%s", shelfBlock)
 			shelfBlock = ""
-			shelfBlock = shelfBlock + "===Стеллаж " + *shelf1_id + "\n"
+			shelfBlock += "===Стеллаж " + *shelf1_id + "\n"
 		}
 
-		shelfBlock = shelfBlock + *name + " (id=" + strconv.Itoa(*product_id) + ")\n"
-		shelfBlock = shelfBlock + "заказ " + strconv.Itoa(*order_id) + ", " + strconv.Itoa(*quantity) + "\n\n"
+		shelfBlock += *name + " (id=" + strconv.Itoa(*product_id) + ")\n"
+		shelfBlock += "заказ " + strconv.Itoa(*order_id) + ", " + strconv.Itoa(*quantity) + "\n"
+		if *shelf2_id != "" {
+			shelfBlock += "доп стеллаж: " + *shelf2_id
+
+			if *shelf3_id != "" {
+				shelfBlock += "," + *shelf3_id
+			}
+
+			shelfBlock += "\n"
+		}
+		shelfBlock += "\n"
 
 		prev_shelf = *shelf1_id
 	}
