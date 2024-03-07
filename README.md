@@ -72,7 +72,7 @@
 <img
   title="the result table of the query that is made by this call to program"
   alt="result table"
-  src="./img/result_table"
+  src="./img/result_table.png"
 />
 
 <!-- ![Screenshot from 2024-03-07 15-58-08](https://github.com/rizash11/applicatiion_exam/assets/101503746/ccbb5648-3b31-4ac7-a123-2d988f907147) -->
