@@ -91,7 +91,6 @@ func printOrders(rows *sql.Rows, orders string) error {
 	shelf1_quantity, shelf2_quantity, shelf3_quantity := new(int), new(int), new(int)
 
 	prev_shelf := ""
-	// prev_product := -1
 	shelfBlock := ""
 
 	fmt.Println("=+=+=+=")
